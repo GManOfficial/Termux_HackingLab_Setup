@@ -56,10 +56,20 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 
 **After Running the script, the script will perform all the tasks automatically and will setup everything including termux configuration, python modules, termux packages, tools.**
 
-# Watch Video :-:
+## Watch Video :-:
 
-# ScreenShots ::
+## ScreenShots
 
 ## Follow Us :-
+<a href="https://github.com/GManOfficial"><img title="Github" src="https://img.shields.io/badge/GitHub-GManOfficial-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-blue?style=for-the-badge&logo=instagram)](https://www.instagram.com/gman_official.01/)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.gmanofficial.courses)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-cyan?style=for-the-badge&logo=telegram)](https://telegram.dog/hacking_network8)
+<p align=center>
+<a href="https://www.youtube.com/@gnTecHacker"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Problem Solutioner-red?style=for-the-badge&logo=Youtube"></a>
+</p>
 
-## _♡Special Thanks To [Credits]_ ~ 
+## Special Thanks To [Credits] :
+<a href="https://github.com/Nishant2009"><img title="Github" src="https://img.shields.io/badge/GitHub-Nishant2009-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://telegram.dog/Gullu_Bosz"><img title="Telegram" src="https://img.shields.io/badge/Telegram-Gullu_Bosz-cyan?style=for-the-badge&logo=telegram"></a>
+<a href="https://github.com/mishakorzik/AllHackingTools"><img title="Github" src="https://img.shields.io/badge/GitHub-mishakorzik-brightgreen?style=for-the-badge&logo=github"></a>
