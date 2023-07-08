@@ -13,7 +13,9 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 - Troubleshoot Termux Errors.
 - Change Termux Repo.
 - Package Installer.
-
+- Python Modules Installer
+- Setup Basic Termux Tools
+  
 # Requirements - 
 - Stable Internet Connection
 - 100+ MB Storage
