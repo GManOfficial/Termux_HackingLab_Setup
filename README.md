@@ -36,6 +36,6 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 
 # ScreenShots ::
 
-# Find Us Here :-
+# Follow Us :-
 
 # _♡Special Thanks To [Credits]_ ~ 
