@@ -31,3 +31,11 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 ```python3 termux_setup.py```
 
 **After Running the script, the script will perform all the tasks automatically and will setup everything including termux configuration, python modules, termux packages, tools.**
+
+# Watch Video :-:
+
+# ScreenShots ::
+
+# Find Us Here :-
+
+# _♡Special Thanks To [Credits]_ ~ 
