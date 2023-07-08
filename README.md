@@ -24,4 +24,7 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 - No Termux Knowlegde
 
 # Installation Commands ::
+```pkg install git -y```
+```git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git```
+```python3 termux_setup.py```
 
