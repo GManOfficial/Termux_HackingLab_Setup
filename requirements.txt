@@ -1,0 +1,4 @@
+subprocess
+colorama
+requests
+tqdm
