@@ -84,6 +84,7 @@ if __name__ == "__main__":
     print(f"{blue}                       Setting Up Everything.........")
     animate_hashtags()
     os.system("apt update && apt upgrade -y")
+    os.system("pip3 install -r requirements.txt")
     os.system("termux-setup-storage")
     check_termux()
     os.system("python3 pkg_installer.py")
