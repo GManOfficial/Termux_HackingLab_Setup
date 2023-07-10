@@ -76,6 +76,7 @@ def check_termux():
       
 if __name__ == "__main__":
   try:
+    os.system("pip3 install -r requirements.txt")
     os.system("clear")
     banner()
     time.sleep(1)
