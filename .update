@@ -1,1 +1,1 @@
-
+cd && rm -rf Termux_HackingLab_Setup && git clone https://github.com/GManOfficial/Termux_HackingLab_Setup.git 
