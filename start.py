@@ -45,21 +45,20 @@ def check_intr(host="8.8.8.8", port=53, timeout=5):
 
 
 def spin():
-    pid = os.getpid()
     delay = 0.25
     spinner = ['█■■■■', '■█■■■', '■■█■■', '■■■█■', '■■■■█']
 
-    while any(pid in p.info for p in psutil.process_iter(['pid'])):
+    for _ in range(10):  # Change the range value as per your requirement
         for i in spinner:
-            sys.stdout.write(f"\033[34m\r[*] Downloading..please wait.........\e[33m[\033[32m{i}\033[33m]\033[0m   ")
+            sys.stdout.write(f"\033[34m\r[*] Setting Up Everything.........\e[33m[\033[32m{i}")
             sys.stdout.flush()
             time.sleep(delay)
-            sys.stdout.write("\b" * 8)
-        sys.stdout.write(" " * 8 + "\b" * 8)
-
+            sys.stdout.write("\b" * (len(i) + 7))
+        sys.stdout.write("   \b\b\b\b\b")
+        sys.stdout.flush()
+    print(" ")
     sys.stdout.write("\033[1;33m [Done]\033[0m")
-    print("")
-
+    sys.stdout.write("\n")
 
 def banner():
     print(f'{red} ______                                  __  __           __   _            ')
