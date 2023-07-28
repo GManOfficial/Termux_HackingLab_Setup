@@ -163,7 +163,6 @@ if __name__ == "__main__":
     time.sleep(1)
     print(" ")
     print(" ")
-    print(f"{green}                       Please Wait For A While We Check Everything... ")
     spin()
     os.system("apt update && apt upgrade -y")
     os.system("pip3 install -r requirements.txt")
