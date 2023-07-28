@@ -2,12 +2,28 @@ import subprocess
 import socket
 import time
 import os
-import psutil
 import requests
 import os, sys
 from os import system
-from colorama import Fore, Back, Style
 
+modules = ['requests', 'colorama', 'setuptools', 'tqdm']
+
+def install_module(module):
+    try:
+        print(f"Installing {module}")
+        subprocess.run(["pip3", "install", module, "--break-system-packages"], check=True)
+    except subprocess.CalledProcessError:
+        print(f"{module} cannot be installed! Install it manually by {green}'pip3 install {module}'")
+        sys.exit(1)
+
+for module in modules:
+    try:
+        __import__(module)
+    except ImportError:
+        install_module(module)
+    except:
+        sys.exit(1)
+        
 red = Fore.RED + Style.BRIGHT
 green = Fore.GREEN + Style.BRIGHT
 yellow = Fore.YELLOW + Style.BRIGHT
