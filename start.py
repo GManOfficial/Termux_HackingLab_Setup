@@ -120,7 +120,7 @@ def update():
     check_intr()
     git_ver = str(
         requests.get(
-            "https://raw.githubusercontent.com/GManOfficial/Termux_HackingLab_Setup/blob/main/.version"
+            "https://raw.githubusercontent.com/GManOfficial/Termux_HackingLab_Setup/main/.version"
         ).text
     ).split()
     if version == git_ver[0]:
@@ -129,10 +129,10 @@ def update():
         print("Termux_ is up-to-date\n")
     elif version != git_ver and git_ver != "404: Not Found":
         changelog = requests.get(
-            "https://raw.githubusercontent.com/GManOfficial/Termux_HackingLab_Setup/blob/main/.changelog.log"
+            "https://raw.githubusercontent.com/GManOfficial/Termux_HackingLab_Setup/main/.changelog.log"
         ).text
         update_commands = requests.get(
-            "https://raw.githubusercontent.com/GManOfficial/Termux_HackingLab_Setup/blob/main/.update"
+            "https://raw.githubusercontent.com/GManOfficial/Termux_HackingLab_Setup/main/.update"
         ).text
         system("clear")
         banner()
