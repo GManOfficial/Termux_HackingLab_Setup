@@ -7,12 +7,13 @@ modules = ['requests', 'colorama', 'setuptools', 'tqdm']
 
 def install_module(module):
     try:
+        os.system("pkg update && pkg upgrade -y")
         print(f"Installing {module}")
         subprocess.run(["pip3", "install", module, "--break-system-packages"], check=True)
     except subprocess.CalledProcessError:
         os.system("apt update && apt upgrade -y")
         os.system("")
-        print(f"{module} cannot be installed! Install it manually by {green}'pip3 install {module}'")
+        print(f"{module} cannot be installed! Install it manually by 'pip3 install {module}'")
         sys.exit(1)
 
 for module in modules:
@@ -30,10 +31,11 @@ for module in modules:
 
     if result.returncode == 0:
         print("Package installation successful.")
+        os.system("python3 start.py")
     else:
         print("Package installation failed. Error message:")
         print("Trying To Change The Repo")
         os.system(f"echo 'deb https://termux.mentality.rip/termux-main stable main stable main' > $PREFIX/etc/apt/sources.list")
         os.system("apt update && apt upgrade -y")
-
+        os.system("python3 start.py")
   
