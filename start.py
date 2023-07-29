@@ -5,7 +5,7 @@ import os
 import requests
 import os, sys
 from os import system
-
+from colorama import Fore, Back, Style
 modules = ['requests', 'colorama', 'setuptools', 'tqdm']
 
 def install_module(module):
