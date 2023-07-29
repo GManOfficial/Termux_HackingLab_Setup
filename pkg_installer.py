@@ -75,7 +75,7 @@ try:
         print(f"{red}[-]-[Wget].........................[ Not Found ]")
         subprocess.call("sleep 1.5", shell=True)
         print(f"{yellow}[!][Installing Module Wget...]")
-        subprocess.call("apt install wget", shell=True)
+        subprocess.call("apt install wget -y", shell=True)
 
     ruby_installed = subprocess.call("command -v ruby > /dev/null 2>&1", shell=True)
     if ruby_installed == 0:
@@ -85,7 +85,7 @@ try:
         print(f"{red}[-]-[Ruby].........................[ Not Found ]")
         subprocess.call("sleep 1.5", shell=True)
         print(f"{yellow}[!][Installing Module Ruby...]")
-        subprocess.call("apt install ruby", shell=True)
+        subprocess.call("apt install ruby -y", shell=True)
 
     lolcat_installed = subprocess.call("command -v lolcat > /dev/null 2>&1", shell=True)
     if lolcat_installed == 0:
@@ -95,7 +95,7 @@ try:
         print(f"{red}[-]-[Lolcat].......................[ Not Found ]")
         subprocess.call("sleep 1.5", shell=True)
         print(f"{yellow}[!][Installing Module Lolcat...]")
-        subprocess.call("gem install lolcat", shell=True)
+        subprocess.call("gem install lolcat -y", shell=True)
 
     php_installed = subprocess.call("command -v php > /dev/null 2>&1", shell=True)
     if php_installed == 0:
@@ -105,7 +105,7 @@ try:
         print(f"{red}[-]-[PHP]..........................[ Not Found ]")
         subprocess.call("sleep 1.5", shell=True)
         print(f"{yellow}[!][Installing Module PHP...]")
-        subprocess.call("apt install php", shell=True)
+        subprocess.call("apt install php -y", shell=True)
 
     zip_installed = subprocess.call("command -v zip > /dev/null 2>&1", shell=True)
     if zip_installed == 0:
@@ -115,7 +115,7 @@ try:
         print(f"{red}[-]-[Zip]..........................[ Not Found ]")
         subprocess.call("sleep 1.5", shell=True)
         print(f"{yellow}[!][Installing Module Zip...]")
-        subprocess.call("apt install zip", shell=True)
+        subprocess.call("apt install zip -y", shell=True)
 
     pip_installed = subprocess.call("command -v pip > /dev/null 2>&1", shell=True)
     if pip_installed == 0:
@@ -140,7 +140,7 @@ try:
         print(f"{red}[-]-[Curl].........................[ Not Found ]")
         subprocess.call("sleep 1.5", shell=True)
         print(f"{yellow}[!][Installing Module Curl...]")
-        subprocess.call("apt install curl", shell=True)
+        subprocess.call("apt install curl -y", shell=True)
 
     subprocess.call("clear", shell=True)
     print(f'''{green}
