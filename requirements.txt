@@ -1,4 +1,4 @@
-subprocess
+setuptools
 colorama
 requests
 tqdm
