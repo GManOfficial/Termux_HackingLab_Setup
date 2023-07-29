@@ -165,15 +165,12 @@ def update():
 if __name__ == "__main__":
   try:
     update()
-    os.system("pip3 install -r requirements.txt")
     os.system("clear")
     banner()
     time.sleep(1)
     print(" ")
     print(" ")
     spin()
-    os.system("apt update && apt upgrade -y")
-    os.system("pip3 install -r requirements.txt")
     os.system("termux-setup-storage")
     check_termux()
     os.system("python3 pkg_installer.py")
