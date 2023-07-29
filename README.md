@@ -1,4 +1,7 @@
-# Termux HackingLab Setup
+<h1 align="center">Termux Hacking Lab Setup</h1>
+<p align="center">
+  श्री गणेशाय नमः
+</p>
 <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/Version-1.1-blue?style=for-the-badge&color=blue">
     <img alt="Stars" src="https://img.shields.io/github/stars/GManOfficial/Termux_HackingLab_Setup?style=for-the-badge&color=magenta">
