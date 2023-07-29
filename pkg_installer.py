@@ -167,6 +167,7 @@ try:
     print(f'{yellow}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(f"{green}[+]-[Git].............................[ Installed ]")
     print(f"{green}[+]-[Python]..........................[ Installed ]")
+    print(f"{green}[+]-[OpenSSL].........................[ Installed ]")
     print(f"{green}[+]-[Wget]............................[ Installed ]")
     print(f"{green}[+]-[Ruby]............................[ Installed ]")
     print(f"{green}[+]-[Lolcat]..........................[ Installed ]")
