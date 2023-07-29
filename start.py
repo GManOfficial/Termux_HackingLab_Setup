@@ -66,7 +66,7 @@ def spin():
 
     for _ in range(10):  # Change the range value as per your requirement
         for i in spinner:
-            sys.stdout.write(f"\033[34m\r[*] Setting Up Everything.........\e[33m[\033[32m{i}")
+            sys.stdout.write(f"\033[34m\r[*] Setting Up Everything.........[\033[32m{i}\033[34m\r]")
             sys.stdout.flush()
             time.sleep(delay)
             sys.stdout.write("\b" * (len(i) + 7))
