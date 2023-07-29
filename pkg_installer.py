@@ -67,6 +67,16 @@ try:
         subprocess.call("pkg install pip2", shell=True)
         subprocess.call("pip2 install --upgrade pip", shell=True)
 
+    openssl_installed = subprocess.call("command -v openssl > /dev/null 2>&1", shell=True)
+    if openssl_installed == 0:
+        print(f"{green}[+]-[OpenSSL]..........................[ Installed ]")
+        subprocess.call("sleep 1.5", shell=True)
+    else:
+        print(f"{red}[-]-[Python].......................[ Not Found ]")
+        subprocess.call("sleep 1.5", shell=True)
+        print(f"{yellow}[!][Installing Module openssl...]")
+        subprocess.call("apt install openssl -y > /dev/null", shell=True)
+    
     wget_installed = subprocess.call("command -v wget > /dev/null 2>&1", shell=True)
     if wget_installed == 0:
         print(f"{green}[+]-[Wget]............................[ Installed ]")
