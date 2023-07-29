@@ -60,7 +60,7 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 
  pip3 install -r requirements.txt
 
- python3 start.py
+ python3 install.py
 ```
 
 **After Running the script, the script will perform all the tasks automatically and will setup everything including termux configuration, python modules, termux packages, tools.**
