@@ -74,6 +74,15 @@ _Enhance Your Termux Setup for Hacking on Android with an All-in-One Solution th
 ![Screenshot_2023-07-10-19-40-25-62_84d3000e3f4017145260f7618db1d683](https://github.com/GManOfficial/Termux_HackingLab_Setup/assets/128127654/d4b43ce2-511a-4678-9581-ae0f2e41cc7a)
 ![Screenshot_2023-07-10-19-39-31-44_84d3000e3f4017145260f7618db1d683](https://github.com/GManOfficial/Termux_HackingLab_Setup/assets/128127654/3d1f54d7-85ca-42df-9e3e-7f8e72c2eeac)
 
+## ©️ Copyright Message
+Copyright © [2023-24] [CyberEdge]
+
+All rights reserved. This Python project, along with its code, documentation, and any associated files, is the intellectual property of cyberedge. You may not reproduce, distribute, or modify the contents of this repository without explicit permission from the owner.
+
+Unauthorized use of this project, in part or in whole, may violate applicable copyright laws.
+
+For inquiries or permission requests, please contact gmanofficial.contact@gmail.com.
+
 ## Follow Us :-
 <a href="https://github.com/GManOfficial"><img title="Github" src="https://img.shields.io/badge/GitHub-GManOfficial-brightgreen?style=for-the-badge&logo=github"></a>
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-blue?style=for-the-badge&logo=instagram)](https://www.instagram.com/gman_official.01/)
